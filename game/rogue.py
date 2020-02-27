@@ -34,7 +34,7 @@ def add_pick_tuto(dt=0):
         tuto_pick_enabled = False
 
 #debug
-fps_display = pyglet.clock.ClockDisplay()
+# fps_display = pyglet.clock.ClockDisplay()
 
 #globals
 score   = 0
@@ -131,7 +131,7 @@ def on_draw():
     for t in tuto:
         t.draw()
 
-    fps_display.draw()
+    #fps_display.draw()
 
 def handle_add_handlers():
     global should_add_handlers
